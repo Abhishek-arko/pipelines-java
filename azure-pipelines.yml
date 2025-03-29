@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+   name: azure-devops-linux-pool
 
 steps:
 - task: Maven@3
