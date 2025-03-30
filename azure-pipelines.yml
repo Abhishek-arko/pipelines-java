@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-   name: azure-devops-linux-pool
+   name: devops-1-pool
 
 steps:
 - task: Maven@3
